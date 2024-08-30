@@ -1,18 +1,17 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "Recommendations for machine learning-assisted directed evolution with limited data",
     "keywords": [
-      "markdown",
-      "publishing",
-      "manubot"
+      "protein engineering",
+      "low N",
+      "active learning"
     ],
     "lang": "en-US",
     "date-meta": "2024-08-30",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Anthony Gitter"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2024-08-30\" />\n<meta name=\"citation_publication_date\" content=\"2024-08-30\" />\n<meta property=\"article:published_time\" content=\"2024-08-30\" />\n<meta name=\"dc.modified\" content=\"2024-08-30T13:41:22+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-08-30T13:41:22+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta property=\"og:url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta property=\"twitter:url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gitter-lab.github.io/low-n-mlde-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Recommendations for machine learning-assisted directed evolution with limited data\" />\n<meta name=\"citation_title\" content=\"Recommendations for machine learning-assisted directed evolution with limited data\" />\n<meta property=\"og:title\" content=\"Recommendations for machine learning-assisted directed evolution with limited data\" />\n<meta property=\"twitter:title\" content=\"Recommendations for machine learning-assisted directed evolution with limited data\" />\n<meta name=\"dc.date\" content=\"2024-08-30\" />\n<meta name=\"citation_publication_date\" content=\"2024-08-30\" />\n<meta property=\"article:published_time\" content=\"2024-08-30\" />\n<meta name=\"dc.modified\" content=\"2024-08-30T13:52:12+00:00\" />\n<meta property=\"article:modified_time\" content=\"2024-08-30T13:52:12+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<link rel=\"canonical\" href=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta property=\"og:url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta property=\"twitter:url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://gitter-lab.github.io/low-n-mlde-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://gitter-lab.github.io/low-n-mlde-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,40 +23,25 @@
   "manubot": {
     "date": "2024-08-30",
     "date_long": "August 30, 2024",
-    "generated": "2024-08-30T13:41:22+00:00",
+    "generated": "2024-08-30T13:52:12+00:00",
     "generated_date_long": "August 30, 2024",
     "randomize_author_order": false,
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "mastodon": "johndoe",
-        "mastodon-server": "mastodon.social",
-        "email": "john.doe@something.com",
+        "github": "agitter",
+        "name": "Anthony Gitter",
+        "initials": "AG",
+        "orcid": "0000-0002-5324-9833",
+        "twitter": "anthonygitter",
+        "email": "gitter@biostat.wisc.edu",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+          "Morgridge Institute for Research"
         ],
         "funders": [
-          "Grant XXXXXXXX"
+          "NSF 2226451"
         ],
-        "affiliation_numbers": [
-          1
-        ]
-      },
-      {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
-        "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
-        ],
-        "corresponding": true,
+        "approval": false,
         "affiliation_numbers": [
           1,
           2
@@ -66,11 +50,11 @@
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
         "affiliation_number": 1
       },
       {
-        "affiliation": "Department of Whatever, University of Something",
+        "affiliation": "Morgridge Institute for Research",
         "affiliation_number": 2
       }
     ],
@@ -79,19 +63,19 @@
       "repo_slug": "gitter-lab/low-n-mlde-review",
       "repo_owner": "gitter-lab",
       "repo_name": "low-n-mlde-review",
-      "commit": "957ff8ebf04f1051aedb3fd17677e19ff2286b7a",
-      "triggering_commit": "957ff8ebf04f1051aedb3fd17677e19ff2286b7a",
-      "build_url": "https://github.com/gitter-lab/low-n-mlde-review/commit/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/checks",
-      "job_url": "https://github.com/gitter-lab/low-n-mlde-review/actions/runs/10633731841"
+      "commit": "f2c9c47c8919efe7ee775f4273ce035b54168856",
+      "triggering_commit": "f2c9c47c8919efe7ee775f4273ce035b54168856",
+      "build_url": "https://github.com/gitter-lab/low-n-mlde-review/commit/f2c9c47c8919efe7ee775f4273ce035b54168856/checks",
+      "job_url": "https://github.com/gitter-lab/low-n-mlde-review/actions/runs/10633878987"
     },
     "html_url": "https://gitter-lab.github.io/low-n-mlde-review/",
     "pdf_url": "https://gitter-lab.github.io/low-n-mlde-review/manuscript.pdf",
-    "html_url_versioned": "https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/",
-    "pdf_url_versioned": "https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/manuscript.pdf",
+    "html_url_versioned": "https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/",
+    "pdf_url_versioned": "https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/manuscript.pdf",
     "manubot_version": "0.6.1",
     "rootstock_commit": "957ff8ebf04f1051aedb3fd17677e19ff2286b7a",
     "manuscript_stats": {
-      "word_count": 1581
+      "word_count": 429
     }
   }
 }
