@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/gitter-lab/low-n-mlde-review/tree/gh-pages) branch hosts the contents of this directory at <https://gitter-lab.github.io/low-n-mlde-review/>.
-The permalink for this webpage version is <https://gitter-lab.github.io/low-n-mlde-review/v/957ff8ebf04f1051aedb3fd17677e19ff2286b7a/>.
+The permalink for this webpage version is <https://gitter-lab.github.io/low-n-mlde-review/v/f2c9c47c8919efe7ee775f4273ce035b54168856/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://gitter-lab.github.io/low-n-mlde-review/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`957ff8ebf04f1051aedb3fd17677e19ff2286b7a`](https://github.com/gitter-lab/low-n-mlde-review/commit/957ff8ebf04f1051aedb3fd17677e19ff2286b7a).
+[`f2c9c47c8919efe7ee775f4273ce035b54168856`](https://github.com/gitter-lab/low-n-mlde-review/commit/f2c9c47c8919efe7ee775f4273ce035b54168856).
