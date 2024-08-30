@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Recommendations for machine learning-assisted directed evolution with limited data
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,12 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This repository is Manubot manuscript for an community perspective about recommendations for protein engineering in the [low N](https://pubmed.ncbi.nlm.nih.gov/33828272/) setting where there is little experimental sequence-function data available.
+
+## Status
+
+As of September 2024, the initial structure for the manuscript is being established.
+When that is ready, the project will be announced externally and the community will be invited to participate.
 
 ## Manubot
 

@@ -1,30 +1,21 @@
 ---
-title: "Manuscript Title"
+title: "Recommendations for machine learning-assisted directed evolution with limited data"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - protein engineering
+  - low N
+  - active learning
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - github: agitter
+    name: Anthony Gitter
+    initials: AG
+    orcid: 0000-0002-5324-9833
+    twitter: anthonygitter
+    email: gitter@biostat.wisc.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
+      - Morgridge Institute for Research
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-    corresponding: true
+      - NSF 2226451
+    approval: false
